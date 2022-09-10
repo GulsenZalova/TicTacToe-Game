@@ -65,7 +65,7 @@ const isvalidationCell=(cell)=>{
 
 const changePlayer=(currentcell)=>{
     currentcell.classList.remove(`player${currentPlayer}`)
-    playerContent.innerText=`${currentPlayer} sıra səndədir!!!`
+    playerContent.innerText=`${currentPlayer}now it's your turn`
     currentcell.innerText=currentPlayer
     currentPlayer=currentPlayer==="X" ? "O" : "X"
     currentcell.innerText=currentPlayer
