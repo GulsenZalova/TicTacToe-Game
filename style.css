@@ -115,3 +115,24 @@ h1{
  font-size: 20px;
  color:gold;
 }
+
+@media only screen and (max-width: 600px) {
+    .game-container{
+        width: 500px;
+        height: 500px;
+    }
+    .game-content{
+        width: 300px;
+        height: 300px;
+    }
+    .result_of_game{
+        width: 300px;
+        height: 200px;
+    }
+    .result{
+        font-size: 15px;
+    }
+    .btn{
+        padding:10px  20px;
+    }
+  }
